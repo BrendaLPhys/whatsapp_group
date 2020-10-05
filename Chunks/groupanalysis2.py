@@ -23,5 +23,5 @@ for (name, alias) in zip(names, aliases):
     df.Message = df.Message.str.replace(name, alias)
 #-----------------------------------------------------------------------------------------------------------------
 
-df.head()
 df.info()
+df.head()
